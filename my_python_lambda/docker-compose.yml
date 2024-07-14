@@ -1,0 +1,6 @@
+version: "3"
+services:
+  my_python_ambda:
+    #image: rust:latest
+    build: . # Dockrefileのパスを指定
+    privileged: true
